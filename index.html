@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=DM+Sans:opsz,wght@9..40,200;9..40,400;9..40,700;9..40,900;9..40,1000&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Inter:wght@400;700;900&family=Libre+Franklin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@400;700&family=Oswald:wght@500&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Projeto Cogu</title>
+</head>
+<body>
+    <a href="#" id="toTopBtn" class="cd-top borda" data-abc="true"></a>
+ 
+    <div class="cabecalho">
+        <header class="navbar navbar-expand-lg">
+            <div class="container d-flex justify-content-between align-items-center">
+                
+                <div class="navbar-brand d-flex align-items-center">
+                    <h1 class="d-flex">Mundo dos Cogus</h1>
+                </div>
+    
+                <button class="navbar-toggler btn-toggle" data-bs-toggle="collapse" data-bs-target="#menu"><span class="navbar-toggler-icon"></span></button>
+    
+                <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold"><a href="#sobre" class="nav-link px-2">Sobre</a></li>
+                        <li class="nav-item fw-bold"><a href="#produtos" class="nav-link px-2">Produtos</a></li>
+                        <li class="nav-item fw-bold"><a href="#especies" class="nav-link px-2">Espécies</a></li>
+                        <li class="nav-item fw-bold"><a href="#aprenda" class="nav-link px-2">Aprenda</a></li>
+                        <li class="nav-item fw-bold"><a href="#contato" class="nav-link px-2">Contato</a></li>
+                        <li class="nav-item fw-bold ps-2">
+                            <div class="input-group justify-content-center">
+                                <div class="form-outline">
+                                    <input type="search" class="form-control" placeholder="Buscar" />
+                                </div>
+                                <button type="button" class="btn btn-success btn-buscar">
+                                    <i class="bi bi-search bi-sm"></i>
+                                </button>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    
+        <section class="intro" style="height: 50vw;">
+                
+        </section>
+    </div>
+    
+    <section id="sobre" class="verdinho">
+        <div class="container pt-5">
+            <h2>Sobre</h2>
+            <div class="row g-5">
+                <div class="col-12 col-md-6 mb-5">
+                    <h3>Conheça, aprenda, cultive!</h3>
+                    <hr>
+                    <p>Mundo dos Cogus é um guia de cultivo amador de cogumelos alimentícios e medicinais. O site oferece, na seção <a href="#aprenda">aprenda</a>, instruções básicas para iniciar uma produção caseira.</p>
+                    <div>
+                        <img class="shadow borda" src="https://grocycle.com/wp-content/uploads/2022/09/harvesting-shiitake-mushrooms-1024x649.jpg">
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 mb-5">
+                    <h3>Tudo para seu cultivo</h3>
+                    <hr>
+                    <p>Adquira no Mundo dos Cogus o que você precisa para iniciar o seu cultivo amador, como <a href="#produtos">culturas de micélio</a>, <a href="#produtos">insumos</a> para diferentes etapas do processo, <a href="#produtos">utensílios</a>, <a href="#produtos">embalagens</a>, <a href="#produtos">equipamentos</a> e muito mais.</p>
+                    <div>
+                        <img class="shadow borda" style="object-position: 50% 0%;" src="https://cdn.shopify.com/s/files/1/2418/8179/products/grow-chambers-boomroom-automated-mushroom-martha-tent-grow-kit-a-360-value-29454567604326.jpg?v=1671750247">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos" class="bege pb-5">
+        <div class="container pt-5">
+            <h2 class="mb-0">Produtos</h2>
+            <nav class="nav nav-underline">
+                <button data-bs-toggle="tab" data-bs-target="#produtos-cultura" class="nav-link active" type="button" aria-selected="true" role="tab">Culturas Miceliais</button>
+                <button data-bs-toggle="tab" data-bs-target="#produtos-kits" class="nav-link" type="button" aria-selected="false" role="tab" tabindex="-1">Kits de Cultivo</button>
+                <button data-bs-toggle="tab" data-bs-target="#produtos-insumos" class="nav-link" type="button" aria-selected="false" role="tab" tabindex="-1">Insumos</button>
+                <button data-bs-toggle="tab" data-bs-target="#produtos-equipamentos" class="nav-link" type="button" aria-selected="false" role="tab" tabindex="-1">Equipamentos</button>
+            </nav>
+            <div class="tab-content">
+                
+                <div id="produtos-cultura" class="tab-pane active show" role="tabpanel">
+                    
+                    <div class="row g-5">
+                        
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://www.fungicultura.com.br/wp-content/uploads/2022/11/3782.jpg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Lentinula edodes</h5>
+                                    <h6 class="card-subtitle mb-3">Shitake</h6>
+                                    <p class="card-text">Cogumelo tradicional, proveniente da asia. Essa espécie é comestível mas também possui propriedades medicinais. Seu cultivo é de média complexidade, podendo ser feito em serragem suplementada ou em toras (<em>outdoor</em>).</p>
+                                    <button type="button" class="btn btn-danger btn-sm">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://www.fungicultura.com.br/wp-content/uploads/2022/11/pequena-1.jpg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Pleurotus djamor</h5>
+                                    <h6 class="card-subtitle mb-3">Shimeji Rosa, Ostra Rosa, Cogumelo Salmão</h6>
+                                    <p class="card-text">Espécie adaptada para climas quentes é muito indicada para iniciantes por ser fácil e barata de cultivar. Sabor marcante que lembra lagosta e frutos do mar.</p>
+                                    <button type="button" class="btn btn-danger btn-sm">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://www.fungicultura.com.br/wp-content/uploads/2022/11/IMG_1780.jpeg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Pholiota adiposa</h5>
+                                    <h6 class="card-subtitle mb-3">Cogumelo Castanha, Chesnut Mushroom</h6>
+                                    <p class="card-text">De textura crocante e sabor amendoado, o cogumelo castanha vem ganhando popularidade nos Estados Unidos e Europa, mas ainda é pouco cultivado no Brasil.</p>
+                                    <button type="button" class="btn btn-danger btn-sm">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div id="produtos-kits" class="tab-pane" role="tabpanel">
+                    <div class="row g-5">
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://static.wixstatic.com/media/00b222_56269ddc45f143079ba0d52207e45c23~mv2.jpg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Kit cultivo Completo</h5>
+                                    <button type="button" class="btn btn-danger btn-sm mt-3">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://static.wixstatic.com/media/00b222_40ac28ddc687467dab38fc0b5dd92027~mv2.jpeg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Kit cultivo Fácil</h5>
+                                    <button type="button" class="btn btn-danger btn-sm mt-3">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://static.wixstatic.com/media/00b222_136d4416db0e4ad392fb8eff9ee93d8e~mv2.jpeg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Kit cultivo Start</h5>
+                                    <button type="button" class="btn btn-danger btn-sm mt-3">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="produtos-insumos" class="tab-pane" role="tabpanel">
+                    
+                    <div class="row g-5">
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://static.wixstatic.com/media/00b222_b195c2c3e1be49459ad023eaad06f108~mv2.jpeg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Silica em gel</h5>
+                                    <button type="button" class="btn btn-danger btn-sm mt-3">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://static.wixstatic.com/media/00b222_853ff8217c124b178e091f7b510bdb56~mv2.jpg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Bandeja Alumínio Descartável</h5>
+                                    <button type="button" class="btn btn-danger btn-sm mt-3">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://static.wixstatic.com/media/00b222_87f60207f3ee4d608dfbc807c697c75f~mv2.jpeg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Bolo PF Tek Estéril</h5>
+                                    <button type="button" class="btn btn-danger btn-sm mt-3">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="produtos-equipamentos" class="tab-pane" role="tabpanel">
+                    
+                    <div class="row g-5">
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://m.media-amazon.com/images/I/71DXDe5YcbL._AC_SL1500_.jpg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Umidificador de ar ultrassônico</h5>
+                                    <button type="button" class="btn btn-danger btn-sm mt-3">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://www.fungicultura.com.br/wp-content/uploads/2023/01/umidade-inkbird.jpg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Controlador de umidade Inkbird</h5>
+                                    <button type="button" class="btn btn-danger btn-sm mt-3">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 pt-3 text-center d-flex align-items-stretch">
+                            <div class="card shadow borda">
+                                <img src="https://www.growplant.com.br/media/catalog/product/cache/1/image/800x/9df78eab33525d08d6e5fb8d27136e95/e/x/exaustor-cultivo-indoor_1.jpg" class="card-img-top borda" alt="">
+                                <div class="card-body">
+                                    <h5 class="card-title fst-italic fw-bold mb-1">Exautor inline</h5>
+                                    <button type="button" class="btn btn-danger btn-sm mt-3">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="especies">
+        <div class="container table-responsive pt-5">
+            <h2>Banco de espécies</h2>
+            
+            <table class="table container text-center">
+                <caption>
+                    <div class="d-flex"><span class="legenda-verde me-2"></span>Alimentícios, <span class="legenda-vermelho mx-2"></span>Medicinais, <span class="legenda-azul mx-2"></span>Mágicos, <span class="legenda-amarelo mx-2"></span>Ornamental</div>
+                    </caption>
+                <thead class="table-dark">
+                    <th>Nome científico</th>
+                    <th>Nome popular ou Cepa</th>
+                    <th>Temp. de frutificação</th>
+                    <th>Substrato</th>
+                    <th>Crescimento</th>
+                    <th>Dificuldade</th>
+                </thead>
+                <tbody>
+                    <tr class="table-danger">
+                        <td class="nome-cientifico">Ganoderma lucidum</td>
+                        <td>Reishi, Lhinguizhi</td>
+                        <td>21 a 26ºC</td>
+                        <td>Serragem suplementada</td>
+                        <td>Muito lento</td>
+                        <td>Fácil</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td class="nome-cientifico">Hericium erinaceus</td>
+                        <td>Juba de Leão, Yamabushitake</td>
+                        <td>14 a 25ºC</td>
+                        <td>Serragem suplementada</td>
+                        <td>Médio</td>
+                        <td>Moderada</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td class="nome-cientifico">Lentinula edodes</td>
+                        <td>Shiitake</td>
+                        <td>12 a 24ºC</td>
+                        <td>Toras ou serragem suplementada</td>
+                        <td>Rápido</td>
+                        <td>Moderada</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td class="nome-cientifico">Laetiporus sulphureus</td>
+                        <td>Frango-da-Floresta</td>
+                        <td>18 a 26ºC</td>
+                        <td>Toras ou serragem suplementada</td>
+                        <td>Lento</td>
+                        <td>Difícil</td>
+                    </tr>
+                    <tr class="table-warning">
+                        <td class="nome-cientifico">Panellus stipcus</td>
+                        <td>Cogumelo bioluminescente</td>
+                        <td>15 a 22ºC</td>
+                        <td>Serragem suplementada</td>
+                        <td>Rápido</td>
+                        <td>Moderada</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td class="nome-cientifico">Pleurotus columbinus</td>
+                        <td>Shimeji cinza, Ostra azul</td>
+                        <td>15 a 20ºC</td>
+                        <td>Serragem suplementada</td>
+                        <td>Rápido</td>
+                        <td>Fácil</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td class="nome-cientifico">Pleurotus djamor</td>
+                        <td>Shimeji rosa, Cogumelo Salmão</td>
+                        <td>22 a 29ºC</td>
+                        <td>Serragem suplementada</td>
+                        <td>Rápido</td>
+                        <td>Fácil</td>
+                    </tr>
+                    <tr class="table-success">
+                        <td class="nome-cientifico">Pleurotus ostreatus</td>
+                        <td>Shimeji branco, Hirataki, Ostra branco</td>
+                        <td>20 a 26ºC</td>
+                        <td>Serragem suplementada</td>
+                        <td>Rápido</td>
+                        <td>Fácil</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td class="nome-cientifico">Psilocybe cubensis</td>
+                        <td>Var. Cambodian</td>
+                        <td>23 a 26ºC</td>
+                        <td>Solo enriquecido, grãos ou esterco</td>
+                        <td>Rápido</td>
+                        <td>Fácil</td>
+                    </tr>
+                    <tr class="table-info">
+                        <td class="nome-cientifico">Psilocybe cubensis</td>
+                        <td>Var. Golden Teacher</td>
+                        <td>23 a 26ºC</td>
+                        <td>Solo enriquecido, grãos ou esterco</td>
+                        <td>Rápido</td>
+                        <td>Fácil</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+        </div>
+    </section>
+
+    <section id="aprenda" class="cinza">
+        <div class="container pt-5">
+            <div class="row">
+                <h2>Guia de cultivo</h2>
+            </div>
+            <div class="row pt-3 g-5">
+                <aside class="col-3">
+                    <nav class="nav nav-underline flex-column">
+                        <button class="nav-link active text-start" data-bs-toggle="tab" data-bs-target="#guia-introducao">Introdução</button>
+                        <button class="nav-link text-start" data-bs-toggle="tab" data-bs-target="#guia-etapas">Etapas do cultivo</button>
+                        <button class="nav-link text-start" data-bs-toggle="tab" data-bs-target="#guia-estrategia">Estratégia e viabilidade</button>
+                        <button class="nav-link text-start" data-bs-toggle="tab" data-bs-target="#guia-sucesso">Como ter sucesso no cultivo</button>
+                        <button class="nav-link text-start" data-bs-toggle="tab" data-bs-target="#guia-esterilizacao">Materiais para esterilização</button>
+                        <button class="nav-link text-start" data-bs-toggle="tab" data-bs-target="#guia-asseptico">Ambiente de trabalho asséptico</button>
+                        <button class="nav-link text-start" data-bs-toggle="tab" data-bs-target="#guia-definindo">Definindo estratégia de cultivo</button>
+                    </nav>
+                </aside>
+                <div class="col-9">
+                    <div class="tab-content mb-5">
+                        <div class="tab-pane active" id="guia-introducao">
+                            <h3>Introdução</h3>
+                            <hr>
+                            <p>O cultivo de cogumelos depende de um substrato inicial que serve como base para o crescimento do fungo. Esse meio de cultura pode ser composto por cereais como trigo, centeio, arroz integral, entre outros, ou por substratos enriquecidos, como o PFTEK, uma mistura de vermiculita e arroz integral. O fungo se desenvolve nesse meio, formando colônias que posteriormente produzem cogumelos. Para cultivar com sucesso, é necessário manter condições adequadas de temperatura, ventilação moderada e luminosidade. Além disso, a desidratação e a correta conservação dos cogumelos são fundamentais para preservar suas propriedades.</p>
+
+                            <p>Existem diferentes meios de cultura para multiplicar fungos, como placas de Petri contendo ágar (BDA) para cultivo de micélio, culturas líquidas para desenvolver o micélio em solução, e substratos já colonizados. O inóculo, que é a matriz do fungo, pode ser obtido a partir desses meios de cultura ou de soluções de esporos. O uso de um meio de cultura como inóculo resulta em um crescimento mais rápido devido à presença de micélio previamente selecionado.</p>
+                                
+                            <p>No caso do cultivo de cogumelos P. cubensis, os cereais costumam ser usados como base nutritiva e também como veículo de transporte do micélio para o substrato final, onde ocorrerá a frutificação. A quantidade de cereais colonizados geralmente é maior em comparação com outras espécies de cogumelos, pois desempenham papéis diferentes no processo, servindo tanto como nutriente quanto como veículo de transporte. No entanto, algumas exceções podem ocorrer, e alguns cultivadores obtêm sucesso com pequenas quantidades de inóculo em substratos tipo "bulk".</p>
+
+                        </div>
+                        <div class="tab-pane" id="guia-etapas">
+                            <h3>Etapas do cultivo</h3>
+                            <hr>
+                            <ol>
+                                <li>TRAÇANDO A ESTRATÉGIA DE CULTIVO: Escolha o substrato e método de inoculação, avaliando riscos, vantagens e desvantagens;</li>
+
+                                <li>PREPARAÇÃO DO SUBSTRATO: Prepare a receita ou grão escolhido;</li>
+
+                                <li>ESTERILIZAÇÃO: Coloque o substrato em copos de PP ou vidro. Tape os copos com papel alumínio. Cozinhe os copos na panela de pressão com água por 50 minutos. Após esfriar a totalmente(+-12h), retire os copos e lacre com fita adesiva imediatamente;</li>
+
+                                <li>INOCULAÇÃO: Em seguida, utilize uma solução de esporos ou uma cultura líquida do fungo para criar sua nova colônia, inserindo alguns mililitros do conteúdo nos copos com substrato estéril;</li>
+
+                                <li>INCUBAÇÃO: Leve os copos recém inoculados para uma caixa térmica totalmente escura, sob temperatura de 25-30°C, recebendo alguns segundos de luz semanalmente a fim de direcionar o crescimento micelial;</li>
+
+                                <li>COLONIZAÇÃO: Entre 10 e 40 dias, os bolos vão estar completamente tomados pelo fungo(colonizados);</li>
+
+                                <li>FRUTIFICAÇÃO: Leve a colônia ao terrário (câmara úmida) com temperatura média de 25°C e umidade cerca de 99%;</li>
+
+                                <li>COLHEITA: Os primeiros cogumelos surgem em 7-10 dias e estarão aptos a colheita em até 5 dias;</li>
+
+                                <li>DESIDRATAÇÃO: Após a colheita, os cogumelos devem ser desidratados a fim de conservá-los por mais tempo. Você pode utilizar um ventilador ou um túnel de vento nessa etapa;</li>
+
+                                <li>ARMAZENAMENTO: Os cogumelos devem ser armazenados com antimofo(sem odor) ou sílica atóxica para mantê-los longe de umidade;</li>
+
+                                <li>HIDRATAÇÃO: Após cada colheita, recomenda-se que a colônia seja hidratada com água mineral, a fim de prevenir contaminações e manter a produtividade.</li>
+
+                            </ol>
+                        </div>
+                        <div class="tab-pane" id="guia-estrategia">
+                            <h3>Estratégia e viabilidade</h3>
+                            <hr>
+                            <p>O cultivo de fungos requer um entendimento detalhado das etapas e procedimentos laboratoriais envolvidos, pois qualquer erro ao longo do processo pode comprometer todo o cultivo. Uma estratégia importante para garantir a produção sustentável é diversificar os substratos utilizados, visto que erros na preparação de substratos complexos podem resultar em perdas significativas. O cultivo de cogumelos P. cubensis, por exemplo, pode ser realizado com sucesso usando o método clássico PFTEK, que, embora demande mais tempo, garante colônias saudáveis e é mais resistente a falhas na preparação.</p>
+
+                            <p>Um desafio comum no cultivo de fungos é a presença de fungicidas em cereais disponíveis no mercado. Os fungicidas são aplicados em armazéns para evitar deterioração dos grãos, tornando essencial a busca por cereais de alta qualidade, orgânicos e recentemente colhidos. Além disso, é recomendável deixar os grãos de molho em água antes do uso para remover resíduos de fungicida e identificar cereais danificados.</p>
+
+                            <p>A prevenção de contaminações é crucial em todas as fases do cultivo. Trichoderma sp e cobweb são contaminantes comuns que podem prejudicar o substrato. Portanto, é essencial adotar medidas rigorosas de desinfecção do ambiente, higiene dos materiais e esterilização dos meios de cultura. Além disso, o controle da ventilação e da luminosidade em terrários é fundamental, com a ventilação rápida e lenta garantindo o suprimento adequado de oxigênio e a temperatura entre 22-28°C sendo ideal para o desenvolvimento dos fungos.</p>
+                        </div>
+                        <div class="tab-pane" id="guia-sucesso">
+                            <h3>Como ter sucesso no cultivo</h3>
+                            <hr>
+                            <p>No que diz respeito a cultivar um fungo em um meio de cultura estéril, pode-se dizer que o fator determinante no cultivo é a higiene e boa esterilização durante os processos (DESINFECÇÃO E ESTERILIZAÇÃO).</p>
+
+                            <p>Em todos os procedimentos descritos neste manual, nós recomendamos:</p>
+
+                            <ul>
+                                <li>Utilizar luvas descartáveis e máscara cirúrgica, a fim de evitar a proliferação de microorganismos;</li>
+
+                                <li>A desinfecção das mãos com álcool 70% de 8 em 8 minutos(assepsia);</li>
+
+                                <li>A desinfecção e limpeza prévia dos materiais e do local com água sanitária;</li>
+
+                                <li>Impedir a circulação de ar no local onde irá fazer os procedimentos;</li>
+
+                                <li>Realizar os procedimentos de inoculação de meios de cultura próximo a uma chama (barreira de calor);</li>
+                            </ul>
+
+                            <p>As dicas acima devem ser seguidas a risca ou o processo de cultivo pode ser comprometido em qualquer etapa.</p>
+                        </div>
+                        <div class="tab-pane" id="guia-esterilizacao">
+                            <h3>Materiais para esterilização</h3>
+                            <hr>
+                            <p>Para esterilização dos meios de cultura, é necessário uma panela de pressão ou autoclave. A função deste equipamento é cozinhar as culturas e matar os micro-organismos presentes no substrato através do fator esterilização. O fator de esterilização se dá através da relação MATERIAL A SER ESTERILIZADO X TEMPO DE EXPOSIÇÃO X CALOR E PRESSÃO dada pelo vapor úmido gerada através do aquecimento da água. É possível realizar este procedimento com uma panela de pressão comum, em bom funcionamento. Em laboratórios de sementes de cogumelos é comum o uso de uma autoclave vertical, que trabalham com vapor úmido. Este equipamento tem a capacidade de esterilizar com rapidez e eficácia. Enquanto o mesmo processo pode levar até 1h30min em uma panela de pressão convencional, o processo na autoclave pode levar somente 20 min após a autoclave atingir a pressão e temperatura ideal.</p>
+                        </div>
+                        <div class="tab-pane" id="guia-asseptico">
+                            <h3>Ambiente de trabalho asséptico</h3>
+                            <hr>
+                            <p>Uma maneira eficaz de proteger os meios de cultura durante o processo de inoculação é utilizando a barreira de calor, que pode ser implementada com um bico de Bunsen ou um fogão doméstico. Essa proteção térmica é especialmente importante para garantir a esterilidade durante a inoculação com seringas ou a técnica Grain to Grain. O uso de fogo intenso entre as chamas proporciona um ambiente mais seguro para o procedimento.</p>
+
+                            <p>O processo de esterilização dos meios de cultura varia conforme o tamanho da panela e a quantidade de substrato a ser esterilizado. Panelas menores requerem cerca de 50 minutos sob pressão em fogo médio, enquanto panelas maiores podem demandar até 2 horas e 30 minutos. É essencial iniciar a contagem do tempo somente quando a válvula de pressão começa a girar e aguardar o resfriamento completo da panela após o término do cozimento para evitar contaminações. Recipientes para esterilização devem ter entre 200ml e 500ml de capacidade e podem ser de vidro ou plástico de polipropileno (PP), sendo recomendável utilizar um pano de algodão no fundo da panela para evitar danos aos copos durante o processo.</p>
+                        </div>
+                        <div class="tab-pane" id="guia-definindo">
+                            <h3>Definindo estratégia de cultivo</h3>
+                            <hr>
+                            <p>O inóculo a ser utilizado também resultará positiva ou negativamente no desenvolvimento das colônias. Se você optar por inocular com os esporos, a colonização será um pouco mais lenta e pode se estender por até 50 dias, dependendo do tamanho do recipiente que utilizar. Isso porque o esporo ainda está “dormindo” e o processo de quebra de dormência leva no mínimo 7 dias. A cultura líquida já garante uma melhor rapidez no processo, uma vez que é desenvolvida com o micélio do fungo já vivo, demora apenas 4 dias para o surgimento dos primeiros sinais de micélio, e em alguns casos, colonizam em menos de 15 das. Geralmente as culturas garantem uma melhor rentabilidade, uma vez que sua grande maioria é desenvolvida através de clonagens e seleção/melhoramento do micélio em placas de cultura BDA.</p>
+
+                            <p>Abaixo, as opções mais utilizadas no cultivo de cogumelos e o grau de dificuldade.</p>
+
+                            <p><strong>Estratégia fácil:</strong><br>
+                            Ótimo para primeiras experiências. Prático, baixo custo e com boa viabilidade.</p>
+
+                            <ul>
+                            <li>SOLUÇÃO DE ESPOROS->BOLO PFTEK ESTÉRIL (CLÁSSICO)</li>
+                            </ul>
+
+                            <p><strong>Estratégia mediana:</strong><br>
+                            Para quem já fez alguns cultivos e gostaria de aprimorar os resultados, com boa viabilidade e investimento médio: </p>
+
+                            <ul>
+                            <li>SOLUÇÃO DE ESPOROS-> TRIGO ESTÉRIL</li>
+                            <li>CULTURA LÍQUIDA-> BOLO PFTEK ESTÉRIL</li>
+                            <li>CULTURA LÍQUIDA-> SPAWN ESTÉRIL</li>
+                            </ul>
+
+                            <p><strong>Estratégia avançada:</strong><br>
+                            Melhores estratégias de rendimento, porém o grau de dificuldade é maior. Investimento médio alto.</p> 
+
+                            <ul>
+                            <li>CULTURA LÍQUIDA-> SPAWN ESTÉRIL</li>
+                            <li>SPAWN OU BOLO COLONIZADO-> SPAWN OU BOLO ESTÉRIL (GRAIN TO GRAIN)</li>
+                            <li>PLACA BDA-> SPAWN OU BOLO ESTÉRIL</li>
+                            </ul>
+
+                            <p>Para traçar uma estratégia de cultivo de cogumelos viável e compatível com suas necessidades, é fundamental considerar diversos fatores, como a disponibilidade de substrato na sua região, a temperatura média local, a quantidade desejada de cogumelos a ser produzida e a acessibilidade a materiais e insumos de menor custo e maior praticidade. Além disso, é importante ter um plano B, como o método PFTEK, pois o uso de grãos puros pode resultar em perdas devido à possível deterioração dos grãos e a potenciais contaminações. A vermiculita é um componente essencial em muitos processos de cultivo e deve estar sempre disponível, pois serve como base de absorção de água para a colônia de fungos.</p>
+
+                            <p>A escolha dos insumos, como trigo em grão e arroz integral, dependerá da disponibilidade na sua localidade. Certifique-se de adquirir vermiculita com granulometria fina ou média, evitando a granulometria super fina, que pode compactar o substrato e prejudicar o desenvolvimento do fungo. Ter um plano de contingência como o PFTEK é uma prática prudente para garantir o sucesso do cultivo, mesmo diante de possíveis contratempos.</p>
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="verdinho">
+        <div class="container pt-5">
+            
+            <div class="row">
+                <div class="col-12 col-md-6 mt-4">
+                    <div class="py-1 d-flex justify-content-center justify-content-md-start"><h2>Contato</h2></div>
+
+                    <div class="py-1 d-flex justify-content-center justify-content-md-start">
+                        <i class="bi bi-telephone" style="font-size: 22px; vertical-align: middle;"></i>
+                        <span class="ms-2">(51) 98765-4321</span>
+                    </div>
+                    
+                    <div class="py-1 d-flex justify-content-center justify-content-md-start justify-content-lg-start">
+                        <i class="bi bi-envelope" style="font-size: 22px; vertical-align: middle;"></i>
+                        <span class="ms-2">contato@mundodoscogus.com.br</span>
+                    </div>
+                    
+                    <div class="py-1 d-flex justify-content-center">
+                        <iframe class="borda shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.9792252475095!2d-51.22030089656354!3d-30.037453859950123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951978534879152d%3A0xa9522f5e1a9af85b!2sParque%20Farroupilha%20(Reden%C3%A7%C3%A3o)!5e0!3m2!1spt-BR!2sbr!4v1696483150254!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6 mt-5 pt-0 pt-md-5 pb-5 d-flex justify-content-center">
+                    <form class="w-75">
+                        <div class="mb-2">
+                            <label for="form-nome" class="form-label mb-0">Nome</label>
+                            <input type="text" class="form-control" id="form-nome" name="nome">
+                        </div>
+                        <div class="mb-2">
+                            <label for="form-email" class="form-label mb-0">E-mail</label>
+                            <input type="email" class="form-control" id="form-email" name="email">
+                        </div>
+                        <div class="mb-2">
+                            <label for="form-telefone" class="form-label mb-0">Telefone</label>
+                            <input type="tel" class="form-control" id="form-telefone" name="telefone">
+                        </div>
+                        <div>
+                            <label for="form-mensagem" class="form-label mb-0">Mensagem</label>
+                            <textarea class="form-control mb-2" id="form-mensagem" name="mensagem" rows="3"></textarea>
+                        </div>
+                        <div class="mb-2 form-check">
+                            <input type="checkbox" class="form-check-input" id="form-promos" name="form-promos">
+                            <label class="form-check-label" for="form-promos">Quero receber promoções</label>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-sm">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <footer class="verdao">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12 col-md-5 d-flex flex-column justify-content-center text-center text-md-start">
+                    <h1>Mundo dos Cogus</h1>
+                    <p>
+                        Rua Lorem Ipsum, 123<br>
+                        Bairro Bootcamp<br>
+                        Porto Alegre - RS
+                    </p>
+                    <div class="d-flex gap-3 fs-4 d-flex justify-content-center justify-content-md-start">
+                        <i class="bi bi-whatsapp"></i>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-youtube"></i>
+                        <i class="bi bi-facebook"></i>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-7">
+                    <div class="row">
+                        <div class="col-12 col-md-6 d-flex justify-content-center">
+                            <div class="fw-bold pt-3 pt-lg-5 d-flex justify-content-center  justify-content-md-start flex-wrap flex-md-column footer-links mb-md-3">
+                                <div class="mx-2"><a href="#sobre">Sobre</a></div>
+                                <div class="mx-2"><a href="#produtos">Produtos</a></div>
+                                <div class="mx-2"><a href="#especies">Espécies</a></div>
+                                <div class="mx-2"><a href="#aprenda">Aprenda</a></div>
+                                <div class="mx-2"><a href="#contato">Contato</a></div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 d-flex justify-content-center text-center text-md-start">
+                            <div class="fw-bold pt-3 pt-lg-5 d-flex justify-content-center  justify-content-md-start flex-wrap flex-md-column footer-links mb-5">
+                                <div class="mx-2"><a href="#">Política da loja</a></div>
+                                <div class="mx-2"><a href="#">Política de privacidade</a></div>
+                                <div class="mx-2"><a href="#">Política de incentivo a preservação</a></div>
+                                <div class="mx-2"><a href="#contato">Fale conosco</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".dropdown-menu li a").click(function(e){
+            e.preventDefault();
+            let selText = $(this).text();
+            $(this).parents('.botao').find('.dropdown-toggle').html(`<span class="caret">${selText}</span>`);
+            });
+
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 20) {
+                    $('#toTopBtn').fadeIn();
+                } else {
+                    $('#toTopBtn').fadeOut();
+                }
+            });
+
+            $('#toTopBtn').click(function() {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 10);
+                return false;
+            });
+
+            $('#form-telefone').mask('(00) 00000-0000', {
+                placeholder: '(00) 00000-0000',
+            });
+
+            $('form').validate({
+                rules: {
+                    nome: {
+                        required: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    },
+                    telefone: {
+                        required: true,
+                    },
+                    mensagem: {
+                        required: true
+                    }
+                },
+                messages: {
+                    nome: {
+                        required: 'Esse campo é obrigatório'
+                    },
+                    email: {
+                        required: 'Esse campo é obrigatório',
+                        email: 'Formato de e-mail inválido'
+                    },
+                    telefone: {
+                        required: 'Esse campo é obrigatório',
+                    },
+                    mensagem: {
+                        required: 'Esse campo é obrigatório'
+                    }
+                },
+                submitHandler: function(form) {
+                    console.log(form);
+                },
+                invalidHandler: function(evento, validador) {
+                    let incorretos = validador.numberOfInvalids();
+                    console.log(incorretos);
+                    alert(`Há ${incorretos} campo(s) incorreto(s)`);
+                }
+            })
+        });
+    </script>
+</body>
+</html>

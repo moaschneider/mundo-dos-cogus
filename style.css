@@ -1,0 +1,318 @@
+/* 
+font-family: 'Borel', cursive;
+font-family: 'DM Sans', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Libre Franklin', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+:root {
+    --bistre: #251605;
+    --celestial-blue: #279af1;
+    --flame: #ee5622;
+    --dutch-white: #d8cfaf;
+    --sea-green: #058c42;
+
+    --charcoal: #233d4d;
+    --pumpkin: #fe7f2d;
+    --sunglow: #fcca46;
+    --olivine: #a1c181;
+    --abacate: #dae9cb;
+    --zomp: #619b8a;
+
+    --bittersweet: #ff5e5b;
+    --timberwolf: #d8d8d8;
+    --ivory: #ffffea;
+    --robin-egg-blue: #00cecb;
+    --maize: #ffed66;
+}
+
+body {
+    font-family: 'Dm Sans', sans-serif;
+}
+
+.bege {
+    background-color: var(--dutch-white);
+}
+
+.verdinho {
+    background-color: var(--abacate);
+}
+
+.verdao {
+    background-color: var(--zomp);
+}
+
+.cinza {
+    background-color: var(--ivory);
+}
+
+.cabecalho {
+    background-image: url(./images/cogu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+header ul {
+    list-style: none;
+}
+
+.navbar a,
+.navbar a:hover,
+.navbar a:visited {
+    color: var(--ivory);
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+.navbar input {
+    font-size: 0.8em;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 30px;
+    width: 120px;
+    border-radius: 15px 0 0 15px;
+}
+
+.btn-buscar {
+    font-size: 0.8em;
+    height: 30px;
+    border-radius: 0 15px 15px 0;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.nav-item {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 2em;
+    letter-spacing: -2px;
+    color: var(--ivory);
+}
+
+h2 {
+    font-weight: 1000;
+    font-size: 2.5em;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+}
+
+a,
+a:hover,
+a:visited,
+.nav-link,
+.nav-link:hover,
+.nav-link:visited {
+    color: #212529;
+    text-decoration: none;
+}
+
+#sobre,
+#produtos,
+#especies,
+#aprenda,
+#contato {
+    min-height: 100vh;
+}
+
+#sobre img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.borda {
+    border-radius: 10px;
+    border: 0;
+}
+
+#sobre hr,
+#aprenda hr {
+    margin: 5px 0 15px 0;
+}
+
+#produtos p {
+    font-size: 0.9em;
+    line-height: 1.4em;
+}
+
+.nome-cientifico {
+    font-style: italic;
+}
+
+#especies table {
+    font-size: 0.9em;
+}
+
+.legenda-verde,
+.legenda-azul,
+.legenda-amarelo,
+.legenda-vermelho {
+    width: 18px;
+    height: 18px;
+}
+
+.legenda-verde {
+    background-color: #cdffe6;
+}
+
+.legenda-azul {
+    background-color: #cdf3ff;
+}
+
+.legenda-vermelho {
+    background-color: #ffcdcd;
+}
+
+.legenda-amarelo {
+    background-color: #fffdcd;
+}
+
+#aprenda ol {
+    padding-left: 15px;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+}
+
+footer h1 {
+    color: #212529;
+}
+
+footer {
+    min-height: 40vh;
+}
+
+footer i {
+    cursor: pointer;
+}
+
+footer .footer-links {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    list-style: none;
+    line-height: 2em;
+}
+
+input.error,
+textarea.error {
+    border: 1px solid red;
+    background-color: #fdd;
+}
+
+label.error {
+    color: red;
+    font-weight: bold;
+}
+
+#toTopBtn {
+    position: fixed;
+    bottom: 26px;
+    right: 39px;
+    z-index: 98;
+    padding: 21px;
+    background-color: hsla(5,76%,62%,.8);
+}
+
+.cd-top {
+    background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+
+    /* https://bbbootstrap.com/snippets/simple-back-top-smooth-scroll-17111555 */
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    iframe {
+        width: 75%;
+    }
+}
+
+@media screen and (min-width: 459px) and (max-width: 576px) {
+    #especies table {
+        font-size: 0.7em;
+    }
+
+    header h1 {
+        font-size: 2em;
+        letter-spacing: -1px;
+    }
+
+    h2 {
+        font-weight: 1000;
+        font-size: 1.8em;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+    }
+    
+    h3 {
+        font-size: 1.5em;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+    }
+
+    #produtos .nav-underline {
+        font-size: 0.9em;
+        gap: 10px;
+    }
+
+    iframe {
+        width: 75%;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    header h1 {
+        font-size: 1.3em;
+        letter-spacing: -1px;
+    }
+
+    h2 {
+        font-weight: 1000;
+        font-size: 1.6em;
+        letter-spacing: -1px;
+        text-transform: uppercase;
+    }
+    
+    h3 {
+        font-size: 1.2em;
+        font-weight: 700;
+        letter-spacing: -1px;
+        margin-bottom: 0;
+    }
+
+    #produtos .nav-underline {
+        font-size: 0.7em;
+        gap: 10px;
+    }
+
+    #aprenda p,
+    #aprenda ul,
+    #aprenda .nav-link {
+        font-size: 0.8em;
+    }
+
+    iframe {
+        width: 75%;
+        height: 200px;
+    }
+    
+}
